@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/django,python,windows,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=django,python,windows,macos
+# Created by https://www.toptal.com/developers/gitignore/api/python,django,visualstudiocode,windows,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,django,visualstudiocode,windows,macos
 
 ### Django ###
 *.log
@@ -296,6 +296,25 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -322,4 +341,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/django,python,windows,macos
+# End of https://www.toptal.com/developers/gitignore/api/python,django,visualstudiocode,windows,macos
